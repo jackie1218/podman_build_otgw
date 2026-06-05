@@ -2,7 +2,7 @@
 FROM docker.io/library/ubuntu:jammy
 ENV PYTHONUNBUFFERED 1
 
-ARG GIT_REPO=https://github.com/oobabooga/text-generation-webui.git
+ARG GIT_REPO=https://github.com/jackie1218/textgen.git
 ARG DO_PULL=true
 ENV DO_PULL $DO_PULL
 
